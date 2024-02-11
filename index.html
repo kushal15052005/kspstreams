@@ -3,36 +3,24 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Ivy Streams</title>
+    <title>KSP Streams</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
 </head>
-    <body class="join-stream">
-    <!-- Logo images for join stream page -->
-    <img src="https://kssem.edu.in/img/about/history.jpg" alt="Left Logo" class="logo-left">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJRC_jjRiCoj8oR1uXEUSrd6q3NjdXUG25zYSfsNQYQsRWtqkC6wKB_85E5k7MQamQsjc&usqp=CAU" alt="Right Logo" class="logo-right">
-    
-    <!-- Other content for join stream page -->
-    <!-- For example: -->
-        
+<body>
+<div id="welcome-message">Welcome to KSP Streams</div>
     <button id="join-btn">Join Stream</button>
-        
-</body>
-<body class="video-streaming">
-   
-    <div id="video-streams">
-        <div class="video-container">
-            <video class="video-player" controls autoplay>
-                <!-- Video source -->
-            </video>
-        </div>
-        <!-- More video containers -->
-    </div>
-    <div id="stream-controls">
-        <button id="leave-btn">Leave Stream</button>
+
+    <div id="stream-wrapper">
+        <div id="video-streams"></div>
+
+        <div id="stream-controls">
+            <button id="leave-btn">Leave Stream</button>
             <button id="mic-btn">Mic On</button>
             <button id="camera-btn">Camera on</button>
+        </div>
     </div>
+    
 </body>
 <script src="AgoraRTC_N-4.20.0.js"></script>
 <script src='main.js'></script>
