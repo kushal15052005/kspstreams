@@ -30,6 +30,17 @@ body {
 .logo-right {
     right: 20px;
 }
+/* CSS for join stream page */
+.join-stream .logo-left,
+.join-stream .logo-right {
+    display: block; /* Show the logos */
+}
+
+/* CSS for video streaming page */
+.video-streaming .logo-left,
+.video-streaming .logo-right {
+    display: none; /* Hide the logos */
+}
 
 #join-btn {
     position: fixed;
