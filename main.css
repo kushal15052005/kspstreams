@@ -1,5 +1,8 @@
 body {
     font-family: Arial, sans-serif;
+    background: #f6f7fb; /* Fallback for unsupported browsers */
+    background: -webkit-linear-gradient(to right, #f6f7fb, #e0eafc); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f6f7fb, #e0eafc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     animation: gradientAnimation 10s ease infinite alternate; /* Adding smooth gradient animation */
 }
 
@@ -11,15 +14,6 @@ body {
         background-position: 100% 50%;
     }
 }
-
-/* Gradient background */
-body {
-    background: #f6f7fb; /* Fallback for older browsers */
-    background: -webkit-linear-gradient(to right, #f6f7fb, #e0eafc); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f6f7fb, #e0eafc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-
 
 #join-btn {
     position: fixed;
@@ -54,23 +48,10 @@ body {
 
 .video-container {
     border: 2px solid #d1d1d1; /* Light grey border */
-    background: #f6f7fb; /* Fallback for older browsers */
-    background: -webkit-animation: gradientAnimation 10s ease infinite alternate; /* Chrome 10-25, Safari 5.1-6 */
-    background: animation: gradientAnimation 10s ease infinite alternate; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #fff; /* White background */
     border-radius: 10px;
     overflow: hidden;
 }
-
-@keyframes gradientAnimation {
-    0% {
-        background-position: 0% 50%;
-    }
-    100% {
-        background-position: 100% 50%;
-    }
-}
-
-
 
 .video-player {
     width: 100%;
