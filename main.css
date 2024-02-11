@@ -5,7 +5,12 @@ body {
     background: linear-gradient(to right, #d7d2e8, #6c5b7b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     animation: gradientAnimation 10s ease infinite alternate; /* Adding smooth gradient animation */
 }
-
+#welcome-message {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 20px;
+}
 @keyframes gradientAnimation {
     0% {
         background-position: 0% 50%;
@@ -15,32 +20,7 @@ body {
     }
 }
 
-.logo-left,
-.logo-right {
-    position: fixed;
-    top: 20px;
-    width: 100px; /* Adjust width as needed */
-    z-index: 1000; /* Ensure it's above other content */
-}
 
-.logo-left {
-    left: 20px;
-}
-
-.logo-right {
-    right: 20px;
-}
-/* CSS for join stream page */
-.join-stream .logo-left,
-.join-stream .logo-right {
-    display: block; /* Show the logos */
-}
-
-/* CSS for video streaming page */
-.video-streaming .logo-left,
-.video-streaming .logo-right {
-    display: none; /* Hide the logos */
-}
 
 #join-btn {
     position: fixed;
