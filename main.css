@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background: #f6f7fb;
-    background: -webkit-linear-gradient(to right, #f6f7fb, #e0eafc);
-    background: linear-gradient(to right, #f6f7fb, #e0eafc);
+    background: #6c5b7b; /* Pastel purple */
+    background: -webkit-linear-gradient(to right, #6c5b7b, #9b8abf); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6c5b7b, #9b8abf); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     animation: gradientAnimation 10s ease infinite alternate; /* Adding smooth gradient animation */
 }
 
@@ -14,6 +14,7 @@ body {
         background-position: 100% 50%;
     }
 }
+
 
 #join-btn {
     position: fixed;
