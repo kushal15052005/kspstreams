@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     background: #f6f7fb; /* Fallback for unsupported browsers */
-    background: -webkit-linear-gradient(to right, #f6f7fb, #e0eafc); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f6f7fb, #e0eafc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #d7d2e8, #6c5b7b); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d7d2e8, #6c5b7b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     animation: gradientAnimation 10s ease infinite alternate; /* Adding smooth gradient animation */
 }
 
