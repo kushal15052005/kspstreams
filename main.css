@@ -1,3 +1,20 @@
+#logo-left,
+#logo-right {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    width: 100px; /* Adjust width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#logo-left {
+    left: 20px; /* Adjust as needed */
+}
+
+#logo-right {
+    right: 20px; /* Adjust as needed */
+}
+
+/* Other styles */
 body {
     font-family: Arial, sans-serif;
     background: #f6f7fb; /* Fallback for unsupported browsers */
